@@ -1,0 +1,15 @@
+#include<cs50.h>
+#include<stdio.h>
+int main()
+{
+    int n = get_int("Enter a number: ");
+        if (n%2==0)
+
+                printf("Even\n");
+
+                else
+
+                    printf("odd\n");
+
+                    return 0;
+                    }
